@@ -20,16 +20,16 @@ Start the development server on http://localhost:3000
 npm run dev
 ```
 
-## Production
+## Deployment
 
-Build the application for production:
+Generate the application for production:
 
 ```bash
-npm run build
+npm run generate
 ```
 
-Locally preview production build:
+Deploy dist to gh-pages:
 
 ```bash
-npm run preview
+npm run deploy
 ```
