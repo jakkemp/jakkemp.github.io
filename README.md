@@ -5,11 +5,7 @@
 Make sure to install the dependencies:
 
 ```bash
-# npm
 npm install
-
-# pnpm
-pnpm install --shamefully-hoist
 ```
 
 ## Development Server
@@ -21,6 +17,8 @@ npm run dev
 ```
 
 ## Deployment
+
+Using gh-pages (https://github.com/tschaub/gh-pages).
 
 Generate the application for production:
 
