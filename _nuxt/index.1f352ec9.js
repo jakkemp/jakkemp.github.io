@@ -1,1 +1,0 @@
-import{a as e,b as o,o as t,e as c}from"./entry.bca6150f.js";const n={},s=c("h1",null,"jakkemp.github.io",-1),a=[s];function r(_,i){return t(),o("div",null,a)}const l=e(n,[["render",r]]);export{l as default};
