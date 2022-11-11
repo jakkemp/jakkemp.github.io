@@ -31,3 +31,4 @@ Deploy dist to gh-pages:
 ```bash
 npm run deploy
 ```
+Add empty .nojekyll file to directory.
