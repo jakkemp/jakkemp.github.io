@@ -1,1 +1,0 @@
-import{a as s,b as t,o as c,e}from"./entry.2b4df2a2.js";const n={},o={class:"min-h-screen bg-base-200"},r=e("div",{class:"text-center"},[e("h1",null,"Immobilienrendite")],-1),a=[r];function i(_,d){return c(),t("div",o,a)}const m=s(n,[["render",i]]);export{m as default};
