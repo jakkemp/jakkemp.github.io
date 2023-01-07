@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup>
 	const isAdvanced = ref(false)
 	const colorTheme = ref('pastel')
 	const colorStyle = computed(() => ({
@@ -6,9 +6,9 @@
 		'bg-secondary': isAdvanced.value
 	}))
 
-	const buyingPrice = ref<number>()
+	const buyingPrice = ref(0)
 	const isRentAnnualized = ref(false)
-	const netRent = ref<number>()
+	const netRent = ref(0)
 	const annualizedNetRent = computed(() => {
   		return isRentAnnualized.value == true ? netRent.value : netRent.value*12
 	})
